@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <title>claynaut | Projects</title>
+  <meta name="description" content="Portfolio for claynaut, an aspiring developer.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    html,
+    body  {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .navcontainer {
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      padding: 0 1rem;
+      background-color: #fff;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, .1);
+    }
+    .navwrapper {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      width: 100%;
+      max-width: 60rem;
+      padding: 0;
+      list-style-type: none;
+      font-weight: 600;
+    }
+    .navwrapper > li:hover {
+      color: cadetblue;
+      cursor: pointer;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0 1rem;
+    }
+    .section {
+      width: 100%;
+      max-width: 60rem;
+      padding: 6rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="navcontainer">
+    <ul class="navwrapper">
+      <li><a href="/">Home</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </div>
+  <container class="container">
+    <section class="section">
+      <h1>Projects I've done.</h1>
+      <ul>
+        <li>
+          This Demo Site
+        </li>
+        <li>
+          Cutie Hack 2021 Website
+        </li>
+      </ul>
+    </section>
+  </container>
+</body>
+</html>
